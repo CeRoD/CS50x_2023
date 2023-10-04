@@ -1,0 +1,2 @@
+# ignore the directory of LSP cache
+.ccls-cache/
