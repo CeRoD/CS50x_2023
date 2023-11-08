@@ -1,0 +1,22 @@
+#+title: Pseudo Code Mario Less
+
+    1. Ask user for number =height=, should be between 1 and 8.
+    2. Print 8 characters: the sum of spaces and " =#= ", should be 8.
+       a. first spaces.
+          + should know the height first to know how many
+            spaces print.
+            - in first line print the number of height minus 1.
+            - is second line print the number of heigt minus 2.
+
+          + So first print number of spaces minus 1 :: First the =spaces= start
+            with the =height=,
+
+            #+begin_src C
+
+
+            for (int i = height; i <= (height - num_line); i--)
+            {
+                print(" ");
+            }
+            #+end_src
+       b.
