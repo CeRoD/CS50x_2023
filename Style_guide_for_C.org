@@ -155,7 +155,6 @@ And definitely don't do this:
 
     #+end_src
 
-
 * Switches
 
 Declare a =switch= as follows:

@@ -1,2 +1,19 @@
 #+Title: Notes_CS50x_2023
 #+Author: Cesar Rodriguez
+
+* For loop
+
+#+begin_src C
+for (initialization; condition; update)
+{
+    // code to repeat
+}
+#+end_src
+
+    + initialization :: Create a variable o variables.
+    + condition :: is a boolean expression that answer the question,
+                should we continue to run this loop?.
+                - if the condition is =true=, run the loop again.
+                - if the condition is =false=, stop.
+    + update :: code that runs in the end of every iteration of the loop.
+            Updating the variable the where created in the initialization.
