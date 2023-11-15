@@ -1,0 +1,37 @@
+
+Hardware watchpoint 2: i
+
+Old value = 2
+New value = 3
+0x0000555555555246 in build_pyramid (n=4) at mario.c:33
+
+Hardware watchpoint 3: number_spaces
+
+Old value = 2
+New value = 1
+build_pyramid (n=4) at mario.c:37
+
+Hardware watchpoint 2: i
+
+Old value = 3
+New value = 4
+0x0000555555555246 in build_pyramid (n=4) at mario.c:33
+
+Hardware watchpoint 3: number_spaces
+
+Old value = 1
+New value = 0
+build_pyramid (n=4) at mario.c:37
+
+Hardware watchpoint 2: i
+
+Old value = 4
+New value = 5
+0x0000555555555246 in build_pyramid (n=4) at mario.c:33
+No frame is currently executing in specified block
+Command aborted.
+No frame is currently executing in specified block
+Command aborted.
+No frame is currently executing in specified block
+Command aborted.
+Quit
