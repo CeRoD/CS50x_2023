@@ -3,6 +3,7 @@
 
 int get_height(void);
 void build_pyramid(int n);
+void print_hashes (int n);
 
 int main(void) 
 {
@@ -39,18 +40,21 @@ void build_pyramid(int n)
             printf(" ");
         }
 
-        for (int k = 0; k < i; k++)
-        {
-            printf("#");
-        }
+        print_hashes(i);
 
         printf("  ");
 
-        for (int l = 0; l < i; l++)
-        {
-            printf("#");
-        }
+        print_hashes(i);
 
         printf("\n");
+    }
+}
+
+// function to just print hashes
+void print_hashes (int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        printf("#");
     }
 }
