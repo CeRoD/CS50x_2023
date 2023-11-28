@@ -1,3 +1,10 @@
 # ignore the directory of LSP cache
+
+# Ignore the LSP server files.
 .ccls-cache/
+
+# Ignore the files of code examples.
 src1/
+
+# Ignore executables.
+*.o
