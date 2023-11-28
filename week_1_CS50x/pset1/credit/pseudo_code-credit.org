@@ -1,0 +1,20 @@
+#+title: Pseudo Code Credit
+#+author: Cesar Roriguez
+#+date: 19 November 2023
+
+     - American express :: 15 digits, start with 34 and 37.
+     - MasterCard :: 16 digits, start with 51,52,53,54,55.
+     - Visa :: 13 digits, start with 4.
+
+* Luhn's Algorithm
+1. Multiply every other digit by 2, starting with the number
+   second-to-last (penultimo), and then add those products' digits together.
+2. Add the sum of the sum of the digits that weren't multiplied by 2.
+3. If the total's last digit is 0 (or, put more formally, if the total's
+   modulo is 10 is congruent to 0), the number is valid.
+
+* TODO
+a. Prompt for input.
+b. Calculate checksum.
+c. Check for card length and starting digits.
+d. Print AMEX, MASTERCARD, VISA or INVALID.

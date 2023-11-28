@@ -1,0 +1,445 @@
+Reading symbols from credit...
++start
+Temporary breakpoint 1 at 0x1141: file credit.c, line 9.
+Starting program: /home/munra/studying/computer_science/CS50x_2023/week_1_CS50x/pset1/credit/credit 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at credit.c:9
++s
+ask_card_number () at credit.c:21
++s
++s
++s
++s
+main () at credit.c:11
++s
+checksum_number (n=4003600000000014) at credit.c:34
++s
++s
++s
++s
++p sum_digit
+$1 = 4
++s
++p n
+$2 = 400360000000001
++s
++p sum_digit_by_2 
+$3 = 2
++s
++p n
+$4 = 40036000000000
++s
++s
++s
++s
++s
++p sum_digit
+$5 = 4
++s
++s
++s
++s
++s
++s
++s
++s
++s
++s
++s
++s
++s
++s
++s
++p n
+$6 = 400360
++watch n
+Hardware watchpoint 2: n
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 400360
+New value = 40036
+checksum_number (n=40036) at credit.c:43
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 40036
+New value = 4003
+checksum_number (n=4003) at credit.c:37
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 4003
+New value = 400
+checksum_number (n=400) at credit.c:43
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 400
+New value = 40
+checksum_number (n=40) at credit.c:37
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 40
+New value = 4
+checksum_number (n=4) at credit.c:43
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 4
+New value = 0
+checksum_number (n=0) at credit.c:37
++p sum_digit_by_2 
+$7 = 22
++p sum_digit
+$8 = 7
+Quit
++quit
+Reading symbols from credit...
++start
+Temporary breakpoint 1 at 0x1141: file credit.c, line 9.
+Starting program: /home/munra/studying/computer_science/CS50x_2023/week_1_CS50x/pset1/credit/credit 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at credit.c:9
++s
+ask_card_number () at credit.c:21
++s
++s
++s
++s
+main () at credit.c:11
++s
+checksum_number (n=4003600000000014) at credit.c:34
++s
++s
++s
++s
++s
++s
++s
++watch n
+Hardware watchpoint 2: n
++watch sum_digit
+Hardware watchpoint 3: sum_digit
++watch sum_digit_by_2 
+Hardware watchpoint 4: sum_digit_by_2
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 40036000000000
+New value = 4003600000000
+checksum_number (n=4003600000000) at credit.c:43
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 4003600000000
+New value = 400360000000
+checksum_number (n=400360000000) at credit.c:37
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 400360000000
+New value = 40036000000
+checksum_number (n=40036000000) at credit.c:43
++p sum_digit
+$1 = 4
++p sum_digit_by_2 
+$2 = 2
++watch sum_digit_by_2 
+Hardware watchpoint 5: sum_digit_by_2
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 40036000000
+New value = 4003600000
+checksum_number (n=4003600000) at credit.c:37
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 4003600000
+New value = 400360000
+checksum_number (n=400360000) at credit.c:43
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 400360000
+New value = 40036000
+checksum_number (n=40036000) at credit.c:37
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 40036000
+New value = 4003600
+checksum_number (n=4003600) at credit.c:43
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 4003600
+New value = 400360
+checksum_number (n=400360) at credit.c:37
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 400360
+New value = 40036
+checksum_number (n=40036) at credit.c:43
++exit
+Reading symbols from credit...
++start
+Temporary breakpoint 1 at 0x1141: file credit.c, line 9.
+Starting program: /home/munra/studying/computer_science/CS50x_2023/week_1_CS50x/pset1/credit/credit 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at credit.c:9
++s
+ask_card_number () at credit.c:21
++s
++s
++s
++s
+main () at credit.c:11
++s
+checksum_number (n=4003600000000014) at credit.c:34
++s
++s
++s
++watch n
+Hardware watchpoint 2: n
++watch sum_digit
+Hardware watchpoint 3: sum_digit
++watch sum_digit_by_2 
+Hardware watchpoint 4: sum_digit_by_2
++s
+
+Hardware watchpoint 3: sum_digit
+
+Old value = 0
+New value = 4
+checksum_number (n=4003600000000014) at credit.c:42
++s
+
+Hardware watchpoint 2: n
+
+Old value = 4003600000000014
+New value = 400360000000001
+checksum_number (n=400360000000001) at credit.c:44
++s
++s
+
+Hardware watchpoint 4: sum_digit_by_2
+
+Old value = 0
+New value = 2
+checksum_number (n=400360000000001) at credit.c:69
++s
+
+Hardware watchpoint 2: n
+
+Old value = 400360000000001
+New value = 40036000000000
+checksum_number (n=40036000000000) at credit.c:38
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 40036000000000
+New value = 4003600000000
+checksum_number (n=4003600000000) at credit.c:44
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 4003600000000
+New value = 400360000000
+checksum_number (n=400360000000) at credit.c:38
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 400360000000
+New value = 40036000000
+checksum_number (n=40036000000) at credit.c:44
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 40036000000
+New value = 4003600000
+checksum_number (n=4003600000) at credit.c:38
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 4003600000
+New value = 400360000
+checksum_number (n=400360000) at credit.c:44
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 400360000
+New value = 40036000
+checksum_number (n=40036000) at credit.c:38
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 40036000
+New value = 4003600
+checksum_number (n=4003600) at credit.c:44
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 4003600
+New value = 400360
+checksum_number (n=400360) at credit.c:38
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 400360
+New value = 40036
+checksum_number (n=40036) at credit.c:44
++s
++s
++s
++s
++s
++s
++s
+
+Hardware watchpoint 4: sum_digit_by_2
+
+Old value = 2
+New value = 5
+0x000055555555530f in checksum_number (n=40036) at credit.c:62
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 40036
+New value = 4003
+checksum_number (n=4003) at credit.c:38
++s
++s
+
+Hardware watchpoint 3: sum_digit
+
+Old value = 4
+New value = 7
+checksum_number (n=4003) at credit.c:42
++s
+
+Hardware watchpoint 2: n
+
+Old value = 4003
+New value = 400
+checksum_number (n=400) at credit.c:44
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 400
+New value = 40
+checksum_number (n=40) at credit.c:38
++s
++s
++s
+
+Hardware watchpoint 2: n
+
+Old value = 40
+New value = 4
+checksum_number (n=4) at credit.c:44
++s
++s
+
+Hardware watchpoint 4: sum_digit_by_2
+
+Old value = 5
+New value = 13
+checksum_number (n=4) at credit.c:69
++s
+
+Hardware watchpoint 2: n
+
+Old value = 4
+New value = 0
+checksum_number (n=0) at credit.c:38
++s
++p sum_digit
+$1 = 7
++p sum_digit_by_2 
+$2 = 13
++s
++p checksum_number 
+$3 = {int (long)} 0x55555555518a <checksum_number>
++t
+[Current thread is 1 (Thread 0x7ffff7d95740 (LWP 26059))]
++exit

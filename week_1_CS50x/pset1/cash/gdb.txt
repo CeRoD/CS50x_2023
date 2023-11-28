@@ -1,0 +1,66 @@
++start
+Temporary breakpoint 1 at 0x1151: file cash.c, line 13.
+Starting program: /home/munra/studying/computer_science/CS50x_2023/week_1_CS50x/pset1/cash/cash 
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.archlinux.org>
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at cash.c:13
++s
+get_cents () at cash.c:46
++s
++s
++s
++s
+main () at cash.c:16
++s
+calculate_quarters (cents=41) at cash.c:55
++p cents
+$1 = 41
++s
++p cents 
+$2 = 41
++s
+main () at cash.c:17
++p cents
+$3 = 41
++exit
+Reading symbols from cash...
+
+warning: Source file is more recent than executable.
++start
+Temporary breakpoint 1 at 0x1151: file cash.c, line 13.
+Starting program: /home/munra/studying/computer_science/CS50x_2023/week_1_CS50x/pset1/cash/cash 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at cash.c:13
++s
+get_cents () at cash.c:44
++s
++s
++s
++s
+main () at cash.c:16
++p cents
+$1 = 41
++s
+calculate_quarters (cents=41) at cash.c:52
++cents
+Undefined command: "cents".  Try "help".
++p cents
+$2 = 41
++s
++s
++p quarters
+$3 = 1
++s
+main () at cash.c:17
++s
++p cents
+$4 = 16
++exit
